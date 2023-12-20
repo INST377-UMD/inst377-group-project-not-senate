@@ -1,5 +1,5 @@
 # Project Title: Email Validator  
-John Davitz, Angela De Peralta
+John Davitz, Angela De Peralta   - We did our developmet in a different github and then reuploaded it here for grading.   
 Descripton: Our application helps organizations detect fake email addresses and helps to add emails to a mailing list.  
 Target Browsers: Our application is targeted for desktop users using chrome, edge, or firefox.   
 User Manual Link:  https://github.com/not-senate/377_final/blob/main/docs/userGuide.md    
