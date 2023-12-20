@@ -1,0 +1,129 @@
+.validateBtn {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: OCR A Std, monospace;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.validateBtn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+#bar h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+
+#bar {
+    background-color: #47bc86;
+    font-family:  OCR A Std, monospace;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#main-nav {
+    background-color: #8de3bb;
+    color:rgb(4, 122, 35);
+    font-size: 18;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: American Typewriter, serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+}
+
+#main-nav li:hover{
+    background-color: rgb(4, 122, 35);
+    color: #8de3bb;
+}
+
+
+body {
+    font-family: American Typewriter, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.emailForm {
+  padding: 10px 5px 10px 5px;
+  border-radius: 15px;
+  text-align: center;
+  width: 35%;
+}
+
+/* ALl of the result div stuff */
+.emailBig {
+  font-family: OCR A Std, monospace;
+}
+.resultGood {
+  color:#47bc86;
+}
+
+.resultBad {
+  color: #E30B5C;
+}
+
+.key {
+  border-right: .2px solid gainsboro;
+}
+
+.key, .value {
+  padding:5px;
+  border-bottom: 1px solid gainsboro;
+}
+
+table {
+  border-collapse: collapse;
+  margin:auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
